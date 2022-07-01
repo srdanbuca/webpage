@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    width: 100vw;
+    height: 5vh;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.nav-list-1 li, .nav-list-2 li{
+    display: inline-block;
+    background-color: red;
+    margin: 0 0.5vw 0 0.5vw;
+}
+
+.nav-title{
+    margin: 0 2vw 0 2vw;
+}
